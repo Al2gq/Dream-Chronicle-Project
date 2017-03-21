@@ -1,2 +1,2 @@
 # al2gq.github.io
-My first repository
+Repository for final project Dream Chronicler
