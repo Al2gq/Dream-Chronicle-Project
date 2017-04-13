@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131C51011EA0351F000B399F /* RecordDreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C51001EA0351F000B399F /* RecordDreamViewController.swift */; };
+		139277321E999A19005D5675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277311E999A19005D5675 /* AppDelegate.swift */; };
+		139277341E999A19005D5675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277331E999A19005D5675 /* ViewController.swift */; };
+		139277371E999A19005D5675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139277351E999A19005D5675 /* Main.storyboard */; };
+		1392773A1E999A19005D5675 /* Dream_Chronicle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139277381E999A19005D5675 /* Dream_Chronicle.xcdatamodeld */; };
+		1392773C1E999A19005D5675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1392773B1E999A19005D5675 /* Assets.xcassets */; };
+		1392773F1E999A19005D5675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1392773D1E999A19005D5675 /* LaunchScreen.storyboard */; };
+		1392774A1E999A19005D5675 /* Dream_ChronicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277491E999A19005D5675 /* Dream_ChronicleTests.swift */; };
+		139277551E999A19005D5675 /* Dream_ChronicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277541E999A19005D5675 /* Dream_ChronicleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		139277461E999A19005D5675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139277261E999A19005D5675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1392772D1E999A19005D5675;
+			remoteInfo = "Dream Chronicle";
+		};
+		139277511E999A19005D5675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139277261E999A19005D5675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1392772D1E999A19005D5675;
+			remoteInfo = "Dream Chronicle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131C51001EA0351F000B399F /* RecordDreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDreamViewController.swift; sourceTree = "<group>"; };
+		1392772E1E999A19005D5675 /* Dream Chronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Chronicle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139277311E999A19005D5675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		139277331E999A19005D5675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		139277361E999A19005D5675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		139277391E999A19005D5675 /* Dream_Chronicle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dream_Chronicle.xcdatamodel; sourceTree = "<group>"; };
+		1392773B1E999A19005D5675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1392773E1E999A19005D5675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		139277401E999A19005D5675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139277451E999A19005D5675 /* Dream ChronicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream ChronicleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139277491E999A19005D5675 /* Dream_ChronicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_ChronicleTests.swift; sourceTree = "<group>"; };
+		1392774B1E999A19005D5675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139277501E999A19005D5675 /* Dream ChronicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream ChronicleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139277541E999A19005D5675 /* Dream_ChronicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_ChronicleUITests.swift; sourceTree = "<group>"; };
+		139277561E999A19005D5675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1392772B1E999A19005D5675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139277421E999A19005D5675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1392774D1E999A19005D5675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139277251E999A19005D5675 = {
+			isa = PBXGroup;
+			children = (
+				139277301E999A19005D5675 /* Dream Chronicle */,
+				139277481E999A19005D5675 /* Dream ChronicleTests */,
+				139277531E999A19005D5675 /* Dream ChronicleUITests */,
+				1392772F1E999A19005D5675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1392772F1E999A19005D5675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1392772E1E999A19005D5675 /* Dream Chronicle.app */,
+				139277451E999A19005D5675 /* Dream ChronicleTests.xctest */,
+				139277501E999A19005D5675 /* Dream ChronicleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139277301E999A19005D5675 /* Dream Chronicle */ = {
+			isa = PBXGroup;
+			children = (
+				139277311E999A19005D5675 /* AppDelegate.swift */,
+				139277331E999A19005D5675 /* ViewController.swift */,
+				139277351E999A19005D5675 /* Main.storyboard */,
+				131C51001EA0351F000B399F /* RecordDreamViewController.swift */,
+				1392773B1E999A19005D5675 /* Assets.xcassets */,
+				1392773D1E999A19005D5675 /* LaunchScreen.storyboard */,
+				139277401E999A19005D5675 /* Info.plist */,
+				139277381E999A19005D5675 /* Dream_Chronicle.xcdatamodeld */,
+			);
+			path = "Dream Chronicle";
+			sourceTree = "<group>";
+		};
+		139277481E999A19005D5675 /* Dream ChronicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				139277491E999A19005D5675 /* Dream_ChronicleTests.swift */,
+				1392774B1E999A19005D5675 /* Info.plist */,
+			);
+			path = "Dream ChronicleTests";
+			sourceTree = "<group>";
+		};
+		139277531E999A19005D5675 /* Dream ChronicleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				139277541E999A19005D5675 /* Dream_ChronicleUITests.swift */,
+				139277561E999A19005D5675 /* Info.plist */,
+			);
+			path = "Dream ChronicleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1392772D1E999A19005D5675 /* Dream Chronicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139277591E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream Chronicle" */;
+			buildPhases = (
+				1392772A1E999A19005D5675 /* Sources */,
+				1392772B1E999A19005D5675 /* Frameworks */,
+				1392772C1E999A19005D5675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream Chronicle";
+			productName = "Dream Chronicle";
+			productReference = 1392772E1E999A19005D5675 /* Dream Chronicle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		139277441E999A19005D5675 /* Dream ChronicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1392775C1E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream ChronicleTests" */;
+			buildPhases = (
+				139277411E999A19005D5675 /* Sources */,
+				139277421E999A19005D5675 /* Frameworks */,
+				139277431E999A19005D5675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				139277471E999A19005D5675 /* PBXTargetDependency */,
+			);
+			name = "Dream ChronicleTests";
+			productName = "Dream ChronicleTests";
+			productReference = 139277451E999A19005D5675 /* Dream ChronicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1392774F1E999A19005D5675 /* Dream ChronicleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1392775F1E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream ChronicleUITests" */;
+			buildPhases = (
+				1392774C1E999A19005D5675 /* Sources */,
+				1392774D1E999A19005D5675 /* Frameworks */,
+				1392774E1E999A19005D5675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				139277521E999A19005D5675 /* PBXTargetDependency */,
+			);
+			name = "Dream ChronicleUITests";
+			productName = "Dream ChronicleUITests";
+			productReference = 139277501E999A19005D5675 /* Dream ChronicleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139277261E999A19005D5675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Austin Luk";
+				TargetAttributes = {
+					1392772D1E999A19005D5675 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					139277441E999A19005D5675 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1392772D1E999A19005D5675;
+					};
+					1392774F1E999A19005D5675 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1392772D1E999A19005D5675;
+					};
+				};
+			};
+			buildConfigurationList = 139277291E999A19005D5675 /* Build configuration list for PBXProject "Dream Chronicle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139277251E999A19005D5675;
+			productRefGroup = 1392772F1E999A19005D5675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1392772D1E999A19005D5675 /* Dream Chronicle */,
+				139277441E999A19005D5675 /* Dream ChronicleTests */,
+				1392774F1E999A19005D5675 /* Dream ChronicleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1392772C1E999A19005D5675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1392773F1E999A19005D5675 /* LaunchScreen.storyboard in Resources */,
+				1392773C1E999A19005D5675 /* Assets.xcassets in Resources */,
+				139277371E999A19005D5675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139277431E999A19005D5675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1392774E1E999A19005D5675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1392772A1E999A19005D5675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139277341E999A19005D5675 /* ViewController.swift in Sources */,
+				131C51011EA0351F000B399F /* RecordDreamViewController.swift in Sources */,
+				139277321E999A19005D5675 /* AppDelegate.swift in Sources */,
+				1392773A1E999A19005D5675 /* Dream_Chronicle.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139277411E999A19005D5675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1392774A1E999A19005D5675 /* Dream_ChronicleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1392774C1E999A19005D5675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139277551E999A19005D5675 /* Dream_ChronicleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		139277471E999A19005D5675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1392772D1E999A19005D5675 /* Dream Chronicle */;
+			targetProxy = 139277461E999A19005D5675 /* PBXContainerItemProxy */;
+		};
+		139277521E999A19005D5675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1392772D1E999A19005D5675 /* Dream Chronicle */;
+			targetProxy = 139277511E999A19005D5675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		139277351E999A19005D5675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139277361E999A19005D5675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1392773D1E999A19005D5675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1392773E1E999A19005D5675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139277571E999A19005D5675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139277581E999A19005D5675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1392775A1E999A19005D5675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dream Chronicle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dream-Chronicle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1392775B1E999A19005D5675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dream Chronicle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dream-Chronicle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1392775D1E999A19005D5675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dream ChronicleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dream-ChronicleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream Chronicle.app/Dream Chronicle";
+			};
+			name = Debug;
+		};
+		1392775E1E999A19005D5675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dream ChronicleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dream-ChronicleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream Chronicle.app/Dream Chronicle";
+			};
+			name = Release;
+		};
+		139277601E999A19005D5675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dream ChronicleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dream-ChronicleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dream Chronicle";
+			};
+			name = Debug;
+		};
+		139277611E999A19005D5675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dream ChronicleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dream-ChronicleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dream Chronicle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139277291E999A19005D5675 /* Build configuration list for PBXProject "Dream Chronicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139277571E999A19005D5675 /* Debug */,
+				139277581E999A19005D5675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139277591E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream Chronicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1392775A1E999A19005D5675 /* Debug */,
+				1392775B1E999A19005D5675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1392775C1E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream ChronicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1392775D1E999A19005D5675 /* Debug */,
+				1392775E1E999A19005D5675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1392775F1E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream ChronicleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139277601E999A19005D5675 /* Debug */,
+				139277611E999A19005D5675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		139277381E999A19005D5675 /* Dream_Chronicle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				139277391E999A19005D5675 /* Dream_Chronicle.xcdatamodel */,
+			);
+			currentVersion = 139277391E999A19005D5675 /* Dream_Chronicle.xcdatamodel */;
+			path = Dream_Chronicle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 139277261E999A19005D5675 /* Project object */;
+}

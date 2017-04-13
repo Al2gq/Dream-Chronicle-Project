@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="W8g-K9-Ung">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="WHM-Wx-6Ku">
+            <objects>
+                <viewController id="tbO-Cr-ifK" customClass="MainViewController" customModule="Dream_Chronicle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bh1-Kr-8PI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hqq-7a-63i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FhQ-Nx-qBX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qVB-0u-fft">
+                                <rect key="frame" x="129.5" y="263.5" width="116.5" height="140.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWk-i0-NN3">
+                                        <rect key="frame" x="0.0" y="0.0" width="116.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lv6-3n-rwI">
+                                        <rect key="frame" x="9.5" y="20.5" width="98" height="30"/>
+                                        <state key="normal" title="Record Dream"/>
+                                        <connections>
+                                            <segue destination="Akc-gg-pXm" kind="presentation" id="U1O-oV-FJW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQ5-m1-Sit">
+                                        <rect key="frame" x="21.5" y="50.5" width="74" height="30"/>
+                                        <state key="normal" title="Dream List"/>
+                                        <connections>
+                                            <segue destination="oP4-yz-Mpm" kind="presentation" id="gdj-jx-y0W"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s32-6C-F0G">
+                                        <rect key="frame" x="13" y="80.5" width="91" height="30"/>
+                                        <state key="normal" title="Sleep Playlist"/>
+                                        <connections>
+                                            <segue destination="bMP-jN-i10" kind="presentation" id="Fjb-PV-ou9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB6-dN-oj6">
+                                        <rect key="frame" x="30" y="110.5" width="57" height="30"/>
+                                        <state key="normal" title="Settings"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3c-HY-uD6">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794260000003" green="0.95239893149999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Dream Chronicle" id="RL8-6f-oFt"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qVB-0u-fft" firstAttribute="centerX" secondItem="FhQ-Nx-qBX" secondAttribute="centerX" id="CFl-vA-nNF"/>
+                            <constraint firstItem="qVB-0u-fft" firstAttribute="centerY" secondItem="FhQ-Nx-qBX" secondAttribute="centerY" id="tYA-bS-mLx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PPe-xi-F2f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ED-tR-k1e" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="124"/>
+        </scene>
+        <!--Dream List-->
+        <scene sceneID="NVG-TR-9wY">
+            <objects>
+                <tableViewController id="ZXW-LH-5QG" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="kly-k8-RZm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="x8e-1N-sRT">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x8e-1N-sRT" id="vI1-lv-I4N">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZXW-LH-5QG" id="3Dq-gu-RRq"/>
+                            <outlet property="delegate" destination="ZXW-LH-5QG" id="Wdz-QB-vbT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Dream List" id="vTz-BD-1AP">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="vmr-Fd-XRD">
+                            <connections>
+                                <segue destination="tbO-Cr-ifK" kind="presentation" id="OnB-lo-Ufy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONY-Ci-Zt8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="124"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zYC-Cw-Q4M">
+            <objects>
+                <navigationController id="oP4-yz-Mpm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8a1-fc-VUA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZXW-LH-5QG" kind="relationship" relationship="rootViewController" id="VFm-HX-Nbt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hl7-uI-92S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="124"/>
+        </scene>
+        <!--Record Dream View Controller-->
+        <scene sceneID="laK-nr-YS6">
+            <objects>
+                <viewController id="Akc-gg-pXm" customClass="RecordDreamViewController" customModule="Dream_Chronicle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fIn-N0-l8U"/>
+                        <viewControllerLayoutGuide type="bottom" id="rFX-mC-A4B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vN9-Wj-Bdc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="-Enter dream here-" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tCN-e6-N2f">
+                                <rect key="frame" x="16" y="95" width="343" height="478"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52P-A6-XaL">
+                                <rect key="frame" x="16" y="629" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Audio Record"/>
+                                <connections>
+                                    <segue destination="cRT-JO-4hD" kind="presentation" id="bTN-eV-vkU"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-vN-EQo">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794264346848" green="0.95239893154320365" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Record Dream" id="cTS-Ug-oeu">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="RJm-mr-LaT">
+                                            <connections>
+                                                <segue destination="W8g-K9-Ung" kind="presentation" id="DRA-GK-xmI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="7IC-8e-xQh">
+                                            <connections>
+                                                <action selector="saveData:" destination="Akc-gg-pXm" id="WPN-MI-Tb0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nid-tu-w24">
+                                <rect key="frame" x="306" y="629" width="53" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Art"/>
+                                <connections>
+                                    <segue destination="uHN-hg-SDc" kind="presentation" id="Dt2-Gz-IIn"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lhh-wd-HB0">
+                                <rect key="frame" x="79" y="591" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tags:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7tC-gZ-1ED">
+                                <rect key="frame" x="16" y="591" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dreamTextField" destination="tCN-e6-N2f" id="Uah-EK-uRm"/>
+                        <outlet property="saveData" destination="7IC-8e-xQh" id="Rmg-cE-kAy"/>
+                        <outlet property="tagTextField" destination="Lhh-wd-HB0" id="2eU-xk-FkW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pU-he-Ocl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="-545.57721139430294"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0kn-Ej-qtz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W8g-K9-Ung" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p9i-HC-VrR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tbO-Cr-ifK" kind="relationship" relationship="rootViewController" id="njs-Tr-bDe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVx-Eq-8Sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-398" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vz7-vu-wvS">
+            <objects>
+                <viewController id="bMP-jN-i10" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jED-u0-dli"/>
+                        <viewControllerLayoutGuide type="bottom" id="BwU-It-lLj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F8K-Bk-US9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ljy-63-K4j">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794260000003" green="0.95239893149999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Sleep Playlist" id="tfT-VC-dON">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="niS-nX-r99">
+                                            <connections>
+                                                <segue destination="W8g-K9-Ung" kind="presentation" id="jAw-ot-k5f"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="csU-TX-Ofg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="795"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5ws-8h-4R0">
+            <objects>
+                <viewController id="BJi-3c-scF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fQl-b4-NQq"/>
+                        <viewControllerLayoutGuide type="bottom" id="8d7-8m-r4W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sEI-fs-In8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lrN-bA-T0n">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794260000003" green="0.95239893149999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Settings (Low Priority)" id="Vkp-xK-WJA">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="rBj-AD-E9I"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5K-ix-un4">
+                                <rect key="frame" x="163" y="470" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Automatically upload dreams online?" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GbJ-Wy-C6U">
+                                <rect key="frame" x="58" y="432" width="258" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAb-Wq-ZmO">
+                                <rect key="frame" x="123" y="243" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Username"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0It-GZ-F1T">
+                                <rect key="frame" x="126" y="295" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Password"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dl1-Bn-cex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="795"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="von-EG-sEy">
+            <objects>
+                <viewController id="XFZ-H4-A7M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nDY-sh-aFl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vwd-6K-OIH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HGA-Tg-yGs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7g-a5-z6H">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794260000003" green="0.95239893149999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Date of Dream" id="OQx-Lf-db2">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="vn9-6z-KSn"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Msd-M8-Kzp"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Prepopulate this text field with dream" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KIC-dU-WoK">
+                                <rect key="frame" x="16" y="95" width="343" height="478"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2e-LD-ewI">
+                                <rect key="frame" x="114" y="610" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Art/Audio Recordings"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PX-hk-Gjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2567" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="S48-mc-Lub">
+            <objects>
+                <viewController id="uHN-hg-SDc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WEC-eh-c5R"/>
+                        <viewControllerLayoutGuide type="bottom" id="CUj-NX-B6H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I8m-To-FGl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yGT-ro-o7b">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794260000003" green="0.95239893149999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Placeholder Art View" id="7Yt-wX-c7g">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="nAh-im-Ak1">
+                                            <connections>
+                                                <segue destination="Akc-gg-pXm" kind="presentation" id="3eN-c3-Bc6"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Rux-pI-bbr">
+                                            <connections>
+                                                <segue destination="Akc-gg-pXm" kind="presentation" id="39U-ud-zZp"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UjR-Us-DH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="-546"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="11F-hu-MQZ">
+            <objects>
+                <viewController id="cRT-JO-4hD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fKk-BE-EZK"/>
+                        <viewControllerLayoutGuide type="bottom" id="btM-SR-waW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KET-4k-Uk5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IlV-8S-1fO">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63932794260000003" green="0.95239893149999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Audio Record" id="npb-6T-Fes">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="IGC-9n-RRA">
+                                            <connections>
+                                                <segue destination="Akc-gg-pXm" kind="presentation" id="qyY-V3-yca"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="LsW-gx-DHH">
+                                            <connections>
+                                                <segue destination="Akc-gg-pXm" kind="presentation" id="SNU-u3-ADt"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vvf-Wq-BgF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="-1208"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="OnB-lo-Ufy"/>
+        <segue reference="U1O-oV-FJW"/>
+        <segue reference="DRA-GK-xmI"/>
+    </inferredMetricsTieBreakers>
+</document>
