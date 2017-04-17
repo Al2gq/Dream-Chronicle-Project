@@ -13,7 +13,7 @@ class RecordDreamViewController: UIViewController {
     @IBOutlet weak var tagTextField: UITextField!
     @IBOutlet weak var dreamTextField: UITextField!
     
-    @IBAction func saveData(_ sender: UIButton) {
+    @IBAction func saveData(_ sender: UIBarButtonItem) {
         print("test")
         
     }

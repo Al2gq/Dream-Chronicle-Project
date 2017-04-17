@@ -8,14 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		131C51011EA0351F000B399F /* RecordDreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C51001EA0351F000B399F /* RecordDreamViewController.swift */; };
+		13354BA91EA304E600F86F24 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13354BA81EA304E600F86F24 /* AVFoundation.framework */; };
+		13354BAB1EA3051000F86F24 /* SleepPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13354BAA1EA3051000F86F24 /* SleepPlaylistViewController.swift */; };
+		13354BAD1EA3080F00F86F24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13354BAC1EA3080F00F86F24 /* GoogleService-Info.plist */; };
+		13354BAE1EA3080F00F86F24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13354BAC1EA3080F00F86F24 /* GoogleService-Info.plist */; };
+		13354BAF1EA3080F00F86F24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13354BAC1EA3080F00F86F24 /* GoogleService-Info.plist */; };
+		13354BBF1EA3261500F86F24 /* AudioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13354BBE1EA3261500F86F24 /* AudioPlayerVC.swift */; };
+		13354BC21EA329A400F86F24 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13354BC11EA329A400F86F24 /* 0.mp3 */; };
+		135833401EA3F3E100139B31 /* AddArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1358333F1EA3F3E100139B31 /* AddArtViewController.swift */; };
+		135833441EA3F66B00139B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135833431EA3F66B00139B31 /* Foundation.framework */; };
+		135833461EA3F67000139B31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135833451EA3F67000139B31 /* CoreGraphics.framework */; };
+		1358335E1EA3FB5000139B31 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833481EA3FB5000139B31 /* b.png */; };
+		1358335F1EA3FB5000139B31 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833491EA3FB5000139B31 /* Black.png */; };
+		135833601EA3FB5000139B31 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358334A1EA3FB5000139B31 /* Blue.png */; };
+		135833611EA3FB5000139B31 /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358334B1EA3FB5000139B31 /* Brown.png */; };
+		135833621EA3FB5000139B31 /* Custom-Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358334C1EA3FB5000139B31 /* Custom-Color.png */; };
+		135833631EA3FB5000139B31 /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358334D1EA3FB5000139B31 /* DarkGreen.png */; };
+		135833641EA3FB5000139B31 /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358334E1EA3FB5000139B31 /* DarkOrange.png */; };
+		135833651EA3FB5000139B31 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358334F1EA3FB5000139B31 /* Eraser.png */; };
+		135833661EA3FB5000139B31 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833501EA3FB5000139B31 /* g.png */; };
+		135833671EA3FB5000139B31 /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833511EA3FB5000139B31 /* Grey.png */; };
+		135833681EA3FB5000139B31 /* LightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833521EA3FB5000139B31 /* LightBlue.png */; };
+		135833691EA3FB5000139B31 /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833531EA3FB5000139B31 /* LightGreen.png */; };
+		1358336A1EA3FB5000139B31 /* Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833541EA3FB5000139B31 /* Opacity.png */; };
+		1358336B1EA3FB5000139B31 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833551EA3FB5000139B31 /* r.png */; };
+		1358336C1EA3FB5000139B31 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833561EA3FB5000139B31 /* Red.png */; };
+		1358336D1EA3FB5000139B31 /* reset-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833571EA3FB5000139B31 /* reset-Small.png */; };
+		1358336E1EA3FB5000139B31 /* Save-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833581EA3FB5000139B31 /* Save-Small.png */; };
+		1358336F1EA3FB5000139B31 /* Setting-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 135833591EA3FB5000139B31 /* Setting-1.png */; };
+		135833701EA3FB5000139B31 /* Setting-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358335A1EA3FB5000139B31 /* Setting-2.png */; };
+		135833711EA3FB5000139B31 /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358335B1EA3FB5000139B31 /* thickness.png */; };
+		135833721EA3FB5000139B31 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358335C1EA3FB5000139B31 /* width.png */; };
+		135833731EA3FB5000139B31 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358335D1EA3FB5000139B31 /* Yellow.png */; };
 		139277321E999A19005D5675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277311E999A19005D5675 /* AppDelegate.swift */; };
-		139277341E999A19005D5675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277331E999A19005D5675 /* ViewController.swift */; };
 		139277371E999A19005D5675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139277351E999A19005D5675 /* Main.storyboard */; };
 		1392773A1E999A19005D5675 /* Dream_Chronicle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139277381E999A19005D5675 /* Dream_Chronicle.xcdatamodeld */; };
 		1392773C1E999A19005D5675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1392773B1E999A19005D5675 /* Assets.xcassets */; };
 		1392773F1E999A19005D5675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1392773D1E999A19005D5675 /* LaunchScreen.storyboard */; };
 		1392774A1E999A19005D5675 /* Dream_ChronicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277491E999A19005D5675 /* Dream_ChronicleTests.swift */; };
 		139277551E999A19005D5675 /* Dream_ChronicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139277541E999A19005D5675 /* Dream_ChronicleUITests.swift */; };
+		BEE8674C5AFD61162FAB0DB9 /* Pods_Dream_ChronicleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15527F85AB3D05535B005C88 /* Pods_Dream_ChronicleUITests.framework */; };
+		E3E59FC57D29422880366F4F /* Pods_Dream_Chronicle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE872A5DA932DB4C124F5F9 /* Pods_Dream_Chronicle.framework */; };
+		FD81D4A92A3EAC88C74D08F9 /* Pods_Dream_ChronicleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F5C1B6838D69903E733016 /* Pods_Dream_ChronicleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +70,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F749E1826243D4F03E1BC66 /* Pods-Dream Chronicle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream Chronicle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dream Chronicle/Pods-Dream Chronicle.debug.xcconfig"; sourceTree = "<group>"; };
 		131C51001EA0351F000B399F /* RecordDreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDreamViewController.swift; sourceTree = "<group>"; };
+		13354BA81EA304E600F86F24 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		13354BAA1EA3051000F86F24 /* SleepPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepPlaylistViewController.swift; sourceTree = "<group>"; };
+		13354BAC1EA3080F00F86F24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13354BBE1EA3261500F86F24 /* AudioPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerVC.swift; sourceTree = "<group>"; };
+		13354BC11EA329A400F86F24 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		1358333F1EA3F3E100139B31 /* AddArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddArtViewController.swift; sourceTree = "<group>"; };
+		135833431EA3F66B00139B31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		135833451EA3F67000139B31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		135833481EA3FB5000139B31 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		135833491EA3FB5000139B31 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		1358334A1EA3FB5000139B31 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		1358334B1EA3FB5000139B31 /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		1358334C1EA3FB5000139B31 /* Custom-Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Color.png"; sourceTree = "<group>"; };
+		1358334D1EA3FB5000139B31 /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
+		1358334E1EA3FB5000139B31 /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
+		1358334F1EA3FB5000139B31 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		135833501EA3FB5000139B31 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
+		135833511EA3FB5000139B31 /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grey.png; sourceTree = "<group>"; };
+		135833521EA3FB5000139B31 /* LightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlue.png; sourceTree = "<group>"; };
+		135833531EA3FB5000139B31 /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
+		135833541EA3FB5000139B31 /* Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opacity.png; sourceTree = "<group>"; };
+		135833551EA3FB5000139B31 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		135833561EA3FB5000139B31 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		135833571EA3FB5000139B31 /* reset-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-Small.png"; sourceTree = "<group>"; };
+		135833581EA3FB5000139B31 /* Save-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-Small.png"; sourceTree = "<group>"; };
+		135833591EA3FB5000139B31 /* Setting-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-1.png"; sourceTree = "<group>"; };
+		1358335A1EA3FB5000139B31 /* Setting-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-2.png"; sourceTree = "<group>"; };
+		1358335B1EA3FB5000139B31 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
+		1358335C1EA3FB5000139B31 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
+		1358335D1EA3FB5000139B31 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
 		1392772E1E999A19005D5675 /* Dream Chronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Chronicle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139277311E999A19005D5675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		139277331E999A19005D5675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		139277361E999A19005D5675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		139277391E999A19005D5675 /* Dream_Chronicle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dream_Chronicle.xcdatamodel; sourceTree = "<group>"; };
 		1392773B1E999A19005D5675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +115,14 @@
 		139277501E999A19005D5675 /* Dream ChronicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream ChronicleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139277541E999A19005D5675 /* Dream_ChronicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_ChronicleUITests.swift; sourceTree = "<group>"; };
 		139277561E999A19005D5675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15527F85AB3D05535B005C88 /* Pods_Dream_ChronicleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_ChronicleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4864F51925BC3D2CB6F5FD01 /* Pods-Dream ChronicleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream ChronicleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dream ChronicleUITests/Pods-Dream ChronicleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F61B31DD77FE079F303C68F /* Pods-Dream Chronicle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream Chronicle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dream Chronicle/Pods-Dream Chronicle.release.xcconfig"; sourceTree = "<group>"; };
+		A2F5C1B6838D69903E733016 /* Pods_Dream_ChronicleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_ChronicleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88C214CCE2FA5F05B8ABEDF /* Pods-Dream ChronicleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream ChronicleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dream ChronicleUITests/Pods-Dream ChronicleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEE872A5DA932DB4C124F5F9 /* Pods_Dream_Chronicle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_Chronicle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2301676004CF10A31B4FF88 /* Pods-Dream ChronicleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream ChronicleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dream ChronicleTests/Pods-Dream ChronicleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F403B55F9EB86225278B4673 /* Pods-Dream ChronicleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream ChronicleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dream ChronicleTests/Pods-Dream ChronicleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +130,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135833461EA3F67000139B31 /* CoreGraphics.framework in Frameworks */,
+				135833441EA3F66B00139B31 /* Foundation.framework in Frameworks */,
+				13354BA91EA304E600F86F24 /* AVFoundation.framework in Frameworks */,
+				E3E59FC57D29422880366F4F /* Pods_Dream_Chronicle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD81D4A92A3EAC88C74D08F9 /* Pods_Dream_ChronicleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +149,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE8674C5AFD61162FAB0DB9 /* Pods_Dream_ChronicleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13354BA71EA304E600F86F24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				135833451EA3F67000139B31 /* CoreGraphics.framework */,
+				135833431EA3F66B00139B31 /* Foundation.framework */,
+				13354BA81EA304E600F86F24 /* AVFoundation.framework */,
+				CEE872A5DA932DB4C124F5F9 /* Pods_Dream_Chronicle.framework */,
+				A2F5C1B6838D69903E733016 /* Pods_Dream_ChronicleTests.framework */,
+				15527F85AB3D05535B005C88 /* Pods_Dream_ChronicleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13354BC01EA3299800F86F24 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				13354BC11EA329A400F86F24 /* 0.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		135833471EA3FB5000139B31 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				135833481EA3FB5000139B31 /* b.png */,
+				135833491EA3FB5000139B31 /* Black.png */,
+				1358334A1EA3FB5000139B31 /* Blue.png */,
+				1358334B1EA3FB5000139B31 /* Brown.png */,
+				1358334C1EA3FB5000139B31 /* Custom-Color.png */,
+				1358334D1EA3FB5000139B31 /* DarkGreen.png */,
+				1358334E1EA3FB5000139B31 /* DarkOrange.png */,
+				1358334F1EA3FB5000139B31 /* Eraser.png */,
+				135833501EA3FB5000139B31 /* g.png */,
+				135833511EA3FB5000139B31 /* Grey.png */,
+				135833521EA3FB5000139B31 /* LightBlue.png */,
+				135833531EA3FB5000139B31 /* LightGreen.png */,
+				135833541EA3FB5000139B31 /* Opacity.png */,
+				135833551EA3FB5000139B31 /* r.png */,
+				135833561EA3FB5000139B31 /* Red.png */,
+				135833571EA3FB5000139B31 /* reset-Small.png */,
+				135833581EA3FB5000139B31 /* Save-Small.png */,
+				135833591EA3FB5000139B31 /* Setting-1.png */,
+				1358335A1EA3FB5000139B31 /* Setting-2.png */,
+				1358335B1EA3FB5000139B31 /* thickness.png */,
+				1358335C1EA3FB5000139B31 /* width.png */,
+				1358335D1EA3FB5000139B31 /* Yellow.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
 		139277251E999A19005D5675 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +213,8 @@
 				139277481E999A19005D5675 /* Dream ChronicleTests */,
 				139277531E999A19005D5675 /* Dream ChronicleUITests */,
 				1392772F1E999A19005D5675 /* Products */,
+				13354BA71EA304E600F86F24 /* Frameworks */,
+				710DE7CB514E799C5D7407E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +231,19 @@
 		139277301E999A19005D5675 /* Dream Chronicle */ = {
 			isa = PBXGroup;
 			children = (
+				13354BC01EA3299800F86F24 /* Sounds */,
 				139277311E999A19005D5675 /* AppDelegate.swift */,
-				139277331E999A19005D5675 /* ViewController.swift */,
+				13354BBE1EA3261500F86F24 /* AudioPlayerVC.swift */,
 				139277351E999A19005D5675 /* Main.storyboard */,
+				1358333F1EA3F3E100139B31 /* AddArtViewController.swift */,
+				13354BAA1EA3051000F86F24 /* SleepPlaylistViewController.swift */,
 				131C51001EA0351F000B399F /* RecordDreamViewController.swift */,
 				1392773B1E999A19005D5675 /* Assets.xcassets */,
 				1392773D1E999A19005D5675 /* LaunchScreen.storyboard */,
 				139277401E999A19005D5675 /* Info.plist */,
 				139277381E999A19005D5675 /* Dream_Chronicle.xcdatamodeld */,
+				13354BAC1EA3080F00F86F24 /* GoogleService-Info.plist */,
+				135833471EA3FB5000139B31 /* Graphics */,
 			);
 			path = "Dream Chronicle";
 			sourceTree = "<group>";
@@ -131,6 +266,19 @@
 			path = "Dream ChronicleUITests";
 			sourceTree = "<group>";
 		};
+		710DE7CB514E799C5D7407E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F749E1826243D4F03E1BC66 /* Pods-Dream Chronicle.debug.xcconfig */,
+				9F61B31DD77FE079F303C68F /* Pods-Dream Chronicle.release.xcconfig */,
+				D2301676004CF10A31B4FF88 /* Pods-Dream ChronicleTests.debug.xcconfig */,
+				F403B55F9EB86225278B4673 /* Pods-Dream ChronicleTests.release.xcconfig */,
+				4864F51925BC3D2CB6F5FD01 /* Pods-Dream ChronicleUITests.debug.xcconfig */,
+				A88C214CCE2FA5F05B8ABEDF /* Pods-Dream ChronicleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 139277591E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream Chronicle" */;
 			buildPhases = (
+				240E5DA2C6D49A9D0ED2EDDF /* [CP] Check Pods Manifest.lock */,
 				1392772A1E999A19005D5675 /* Sources */,
 				1392772B1E999A19005D5675 /* Frameworks */,
 				1392772C1E999A19005D5675 /* Resources */,
+				73A8DF6C0B48D079BFC48F2F /* [CP] Embed Pods Frameworks */,
+				450C15E3EA6922C43BA455FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1392775C1E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream ChronicleTests" */;
 			buildPhases = (
+				26DA7B7A05D9B98DFD8D9E45 /* [CP] Check Pods Manifest.lock */,
 				139277411E999A19005D5675 /* Sources */,
 				139277421E999A19005D5675 /* Frameworks */,
 				139277431E999A19005D5675 /* Resources */,
+				AFE078782C4849F2C5BD4EEE /* [CP] Embed Pods Frameworks */,
+				8ED5FAA4B2BA18068B8EFEC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1392775F1E999A19005D5675 /* Build configuration list for PBXNativeTarget "Dream ChronicleUITests" */;
 			buildPhases = (
+				F57876E2F0FE462638588EC3 /* [CP] Check Pods Manifest.lock */,
 				1392774C1E999A19005D5675 /* Sources */,
 				1392774D1E999A19005D5675 /* Frameworks */,
 				1392774E1E999A19005D5675 /* Resources */,
+				866BD7A1DE59A1E1EC16F3B2 /* [CP] Embed Pods Frameworks */,
+				2B1C8E38B88B0CFA2DAA5025 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +395,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135833711EA3FB5000139B31 /* thickness.png in Resources */,
+				1358336E1EA3FB5000139B31 /* Save-Small.png in Resources */,
+				135833681EA3FB5000139B31 /* LightBlue.png in Resources */,
+				1358336C1EA3FB5000139B31 /* Red.png in Resources */,
+				1358336D1EA3FB5000139B31 /* reset-Small.png in Resources */,
+				135833621EA3FB5000139B31 /* Custom-Color.png in Resources */,
+				135833701EA3FB5000139B31 /* Setting-2.png in Resources */,
+				135833611EA3FB5000139B31 /* Brown.png in Resources */,
+				1358335E1EA3FB5000139B31 /* b.png in Resources */,
 				1392773F1E999A19005D5675 /* LaunchScreen.storyboard in Resources */,
+				13354BAD1EA3080F00F86F24 /* GoogleService-Info.plist in Resources */,
+				135833691EA3FB5000139B31 /* LightGreen.png in Resources */,
+				135833601EA3FB5000139B31 /* Blue.png in Resources */,
 				1392773C1E999A19005D5675 /* Assets.xcassets in Resources */,
+				1358336A1EA3FB5000139B31 /* Opacity.png in Resources */,
+				135833661EA3FB5000139B31 /* g.png in Resources */,
+				135833651EA3FB5000139B31 /* Eraser.png in Resources */,
+				135833641EA3FB5000139B31 /* DarkOrange.png in Resources */,
+				1358335F1EA3FB5000139B31 /* Black.png in Resources */,
 				139277371E999A19005D5675 /* Main.storyboard in Resources */,
+				1358336B1EA3FB5000139B31 /* r.png in Resources */,
+				135833671EA3FB5000139B31 /* Grey.png in Resources */,
+				1358336F1EA3FB5000139B31 /* Setting-1.png in Resources */,
+				13354BC21EA329A400F86F24 /* 0.mp3 in Resources */,
+				135833721EA3FB5000139B31 /* width.png in Resources */,
+				135833631EA3FB5000139B31 /* DarkGreen.png in Resources */,
+				135833731EA3FB5000139B31 /* Yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +429,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13354BAE1EA3080F00F86F24 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,19 +437,160 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13354BAF1EA3080F00F86F24 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		240E5DA2C6D49A9D0ED2EDDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26DA7B7A05D9B98DFD8D9E45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B1C8E38B88B0CFA2DAA5025 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream ChronicleUITests/Pods-Dream ChronicleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450C15E3EA6922C43BA455FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream Chronicle/Pods-Dream Chronicle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A8DF6C0B48D079BFC48F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream Chronicle/Pods-Dream Chronicle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866BD7A1DE59A1E1EC16F3B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream ChronicleUITests/Pods-Dream ChronicleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED5FAA4B2BA18068B8EFEC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream ChronicleTests/Pods-Dream ChronicleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE078782C4849F2C5BD4EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream ChronicleTests/Pods-Dream ChronicleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57876E2F0FE462638588EC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1392772A1E999A19005D5675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				139277341E999A19005D5675 /* ViewController.swift in Sources */,
+				13354BBF1EA3261500F86F24 /* AudioPlayerVC.swift in Sources */,
+				13354BAB1EA3051000F86F24 /* SleepPlaylistViewController.swift in Sources */,
 				131C51011EA0351F000B399F /* RecordDreamViewController.swift in Sources */,
 				139277321E999A19005D5675 /* AppDelegate.swift in Sources */,
+				135833401EA3F3E100139B31 /* AddArtViewController.swift in Sources */,
 				1392773A1E999A19005D5675 /* Dream_Chronicle.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +741,7 @@
 		};
 		1392775A1E999A19005D5675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F749E1826243D4F03E1BC66 /* Pods-Dream Chronicle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dream Chronicle/Info.plist";
@@ -430,6 +754,7 @@
 		};
 		1392775B1E999A19005D5675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F61B31DD77FE079F303C68F /* Pods-Dream Chronicle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dream Chronicle/Info.plist";
@@ -442,6 +767,7 @@
 		};
 		1392775D1E999A19005D5675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2301676004CF10A31B4FF88 /* Pods-Dream ChronicleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +782,7 @@
 		};
 		1392775E1E999A19005D5675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F403B55F9EB86225278B4673 /* Pods-Dream ChronicleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +797,7 @@
 		};
 		139277601E999A19005D5675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4864F51925BC3D2CB6F5FD01 /* Pods-Dream ChronicleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Dream ChronicleUITests/Info.plist";
@@ -483,6 +811,7 @@
 		};
 		139277611E999A19005D5675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88C214CCE2FA5F05B8ABEDF /* Pods-Dream ChronicleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Dream ChronicleUITests/Info.plist";

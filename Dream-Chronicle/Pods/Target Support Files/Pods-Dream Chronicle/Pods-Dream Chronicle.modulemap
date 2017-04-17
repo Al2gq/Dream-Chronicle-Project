@@ -1,0 +1,6 @@
+framework module Pods_Dream_Chronicle {
+  umbrella header "Pods-Dream Chronicle-umbrella.h"
+
+  export *
+  module * { export * }
+}
