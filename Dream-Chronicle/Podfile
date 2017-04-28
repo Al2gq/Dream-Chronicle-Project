@@ -10,7 +10,8 @@ target 'Dream Chronicle' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
-  
+  pod 'Firebase/Storage'
+ 
   target 'Dream ChronicleTests' do
     inherit! :search_paths
     # Pods for testing

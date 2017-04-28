@@ -15,6 +15,7 @@ class AudioPlayerVC: UIViewController {
     lazy var motionManager = CMMotionManager()
     var trackID: Int!
     var audioPlayer:AVAudioPlayer!
+    var trackName: String!
     
     @IBOutlet var trackLbl: UILabel!
     
@@ -72,7 +73,7 @@ class AudioPlayerVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        trackLbl.text = "Track \(trackID + 1)"
+        trackLbl.text = trackName
         let path: String! = Bundle.main.resourcePath?.appending("/\(trackID!).mp3")
         let mp3URL = NSURL(fileURLWithPath: path)
         do
